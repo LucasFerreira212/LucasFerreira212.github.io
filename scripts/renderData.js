@@ -42,7 +42,6 @@ const getProjectsByTypeOrAll = (typeId) => {
 
       `,
       imgSrc: 'assets/projects/todo.jpg',
-      videoSrc: 'https://streamable.com/e/ugrd6h',
       repository: 'https://github.com/LucasFerreira212/TODO',
       site: ''
     },
@@ -59,7 +58,6 @@ const getProjectsByTypeOrAll = (typeId) => {
         A stack é simples, apenas utilizando as 3 ferramentas bases da Web, sendo elas HTML5, CSS3 e JavaScript. <br />
 `,
       imgSrc: 'assets/projects/apple-page.jpg',
-      videoSrc: 'https://streamable.com/e/03hnue',
       repository: 'https://github.com/LucasFerreira212/pagina-iPhone-15-Pro',
       site: ''
     },
@@ -80,7 +78,6 @@ const getProjectsByTypeOrAll = (typeId) => {
         • Node.js; <br>
         `,
         imgSrc: 'assets/projects/githubfinder.jpg',
-        videoSrc: 'https://streamable.com/e/usgia6',
         repository: 'https://github.com/LucasFerreira212/GithubFinder',
         site: ''
         
@@ -97,9 +94,8 @@ const getProjectsByTypeOrAll = (typeId) => {
   
           Apesar de parecer um projeto díficil de fazer, eu apenas utilizei Java <br> com a sua biblioteca de componentes visuais Swing.`,
         imgSrc: 'assets/projects/campo-minado.jpg',
-        videoSrc: 'https://streamable.com/e/qceqn0',
         repository: 'https://github.com/LucasFerreira212',
-        site: ''
+        site: 'https://drive.google.com/drive/u/0/folders/1c3tnVg5WZ_HLQ5tFPfbi8edoNLdWQK4b'
       },
     {
       id: 4,
@@ -113,9 +109,8 @@ const getProjectsByTypeOrAll = (typeId) => {
         • Só é possível adicionar um ponto decimal; <br>
         • O tamanho da fonte do display se adapta conforme os números são adicionados;`,
       imgSrc: 'assets/projects/calculadora.jpg',
-      videoSrc: 'https://streamable.com/e/65khi6',
       repository: 'https://github.com/LucasFerreira212',
-      site: ''
+      site: 'https://drive.google.com/drive/u/0/folders/1fqp7GPyJ7Q61En2CrNUsRiEMLt_Ue26a'
     },
     {
       id: 5,
@@ -127,7 +122,6 @@ const getProjectsByTypeOrAll = (typeId) => {
         Além disso, é a 3ª (terceira) rede social mais utilizada do mundo, contando com cerca de 2 bilhões de usuários ativos, de acordo com o Neil Patel. <br><br>
         Tendo isso em mente, pensei em criar um clone da página de login do Instagram, apenas utilizando HTML5 e CSS3.`,
       imgSrc: 'assets/projects/instagram.jpg',
-      videoSrc: 'https://streamable.com/e/tlz8yr',
       repository: 'https://github.com/LucasFerreira212',
       site: ''
     },
@@ -139,7 +133,6 @@ const getProjectsByTypeOrAll = (typeId) => {
       languages: ['html', 'css'],
       description: "Criei este projeto bem no começo da minha jornada como programador. Quando conheci a área da programação, começei estudando o básico: HTML e CSS. Depois de um tempo, tinha capacidade o suficiente para criar um site de uma companhia aérea fictícia.",
       imgSrc: 'assets/projects/world-fly.jpg',
-      videoSrc: 'https://streamable.com/e/q700dy',
       repository: 'https://github.com/LucasFerreira212',
       site: ''
     },
