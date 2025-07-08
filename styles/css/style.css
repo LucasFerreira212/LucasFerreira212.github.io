@@ -295,31 +295,15 @@ section#sobre .banner {
 section#sobre .banner .profile img {
     cursor: pointer;
     transition: 0.2s;
-    max-width: 100%;
-    animation: scaleDelayed 1s 6.5s
+    max-width: 270px;
+    animation: scaleDelayed 1s 6.5s;
+    height: auto;
+    margin-bottom: 2.5rem;
+    width: 100%;
 }
 
 section#sobre .banner .profile img:hover {
     transform: scale(1.1)
-}
-
-@media (max-width: 860px) {
-    section#sobre .banner .profile img {
-        width:30rem
-    }
-}
-
-@media (max-width: 660px) {
-    section#sobre .banner .profile img {
-        width:19rem
-    }
-}
-
-@media (max-width: 480px) {
-    section#sobre .banner .profile img {
-        width:60%;
-        margin-bottom: 2.5rem
-    }
 }
 
 section#sobre .banner .intro {
@@ -1122,4 +1106,15 @@ body.light-mode .modal h2 {
 
 body.light-mode .menuOpen h2 {
     color: #F9F9F9 !important
+}
+
+.avatar {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px solid #A40EE4;
+    display: block;
+    margin: 0 auto;
 }
