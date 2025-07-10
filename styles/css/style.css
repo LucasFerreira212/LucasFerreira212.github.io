@@ -74,7 +74,7 @@ a {
 
 @keyframes backgroundScale {
     to {
-        background-color: #8257E6;
+        background-color: #0760c5cc;
         transform: scale(1.1)
     }
 }
@@ -145,7 +145,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #9c0202
+    background: #0760c5cc
 }
 
 body {
@@ -174,7 +174,7 @@ header .container {
 
 header .container .menu i {
     font-size: 3rem;
-    color: #9c0202;
+    color: #0760c5cc;
     cursor: pointer;
     padding: 0.5rem;
     border-radius: 50%;
@@ -182,7 +182,7 @@ header .container .menu i {
 }
 
 header .container .menu i:hover {
-    background-color: #9c0202;
+    background-color: #0760c5cc;
     color: #13131F
 }
 
@@ -218,7 +218,7 @@ header .container .toggle input:checked+.label {
 
 header .container .toggle .label {
     display: flex;
-    background: #9c0202;
+    background: #0760c5cc;
     width: 6rem;
     border-radius: 2rem;
     padding: 0.3rem;
@@ -253,7 +253,7 @@ header::after {
     position: absolute;
     width: 100%;
     height: 0.1rem;
-    background-image: linear-gradient(90deg, #9c0202 0%, #ff0000 92.32%)
+    background-image: linear-gradient(90deg, #0e1f80 0%, #0059ff 92.32%)
 }
 
 section#sobre {
@@ -348,7 +348,7 @@ section#sobre .banner .intro .title span {
     color: #F9F9F9;
     line-height: 5.4rem;
     display: block;
-    color: #9c0202
+    color: #0760c5cc
 }
 
 @media (max-width: 860px) {
@@ -404,7 +404,7 @@ section#sobre .banner .intro .actions a {
     font-weight: 500;
     color: #F9F9F9;
     padding: 1.2rem 2.7rem;
-    background-image: linear-gradient(90deg, rgba(197, 7, 7, 0.8) .3%, rgba(245, 75, 75, 0.8) 50%, rgba(255, 123, 123, 0.648) 100%);
+    background-image: linear-gradient(90deg, rgba(7, 96, 197, 0.8) .3%, rgba(75, 149, 245, 0.8) 50%, rgba(123, 202, 255, 0.648) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -414,11 +414,11 @@ section#sobre .banner .intro .actions a {
 
 section#sobre .banner .intro .actions a:nth-child(2) {
     background-image: none;
-    border: 0.1rem solid #9c0202
+    border: 0.1rem solid #0760c5cc
 }
 
 section#sobre .banner .intro .actions a:hover {
-    background-image: linear-gradient(90deg,  rgba(255, 123, 123, 0.648) .3%, rgba(245, 75, 75, 0.8) 50%, rgba(197, 7, 7, 0.8) 100%);
+    background-image: linear-gradient(90deg,  rgba(123, 202, 255, 0.648) .3%, rgba(75, 149, 245, 0.8) 50%, rgba(7, 96, 197, 0.8) 100%);
     transform: scale(0.95)
 }
 
@@ -538,7 +538,7 @@ section#skills .skills .container .cards .box p {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.6rem;
     font-weight: 500;
-    color: #ff0000;
+    color: #0760c5cc;
     margin-bottom: 1.5rem
 }
 
@@ -552,7 +552,7 @@ section#skills .skills .container .cards .box::after {
     position: absolute;
     width: 100%;
     height: 0.3rem;
-    background-image: linear-gradient(90deg, #7e0404 20%, #ff2222 92%);
+    background-image: linear-gradient(90deg, #04517e 20%, #2289ff 92%);
     bottom: -0.1rem;
     left: 0
 }
@@ -670,7 +670,7 @@ section#projects .container h3::after {
     height: 0.3rem;
     border-radius: 2rem;
     margin-top: 0.8rem;
-    background-image: linear-gradient(90deg, #7e0404 20%, #ff2222 92%);
+    background-image: linear-gradient(90deg, #04517e 20%, #2289ff 92%);
 }
 
 section#projects .container .cards-projects {
@@ -709,7 +709,7 @@ section#projects .container .cards-projects .box .cover::after {
     width: 100%;
     height: 0.3rem;
     bottom: 0.1rem;
-    background-image: linear-gradient(90deg, #7e0404 20%, #ff2222 92%);
+    background-image: linear-gradient(90deg, #04517e 20%, #2289ff 92%);
 }
 
 section#projects .container .cards-projects .box .cover::before {
@@ -783,7 +783,7 @@ section#projects .container .cards-projects .box .description a {
     font-weight: 500;
     font-size: 1.1rem;
     padding: 0.5rem 1.5rem;
-    border: 0.1rem solid #9c0202;
+    border: 0.1rem solid #0760c5cc;
     border-radius: 2rem;
     animation: backgroundScale 1s 0.5s forwards
 }
@@ -841,7 +841,7 @@ section#projects .container .cards-projects .box:hover .description {
 }
 
 .menuOpen h2 {
-    color: #9c0202;
+    color: #0760c5cc;
     font-weight: 600;
     font-size: 3.8rem
 }
@@ -876,7 +876,7 @@ section#projects .container .cards-projects .box:hover .description {
 }
 
 .menuOpen nav a:hover {
-    color: #9c0202;
+    color: #0760c5cc;
     transform: scale(1.4)
 }
 
@@ -995,13 +995,13 @@ section#projects .container .cards-projects .box:hover .description {
     font-family: 'Poppins', sans-serif;
     font-size: 3.2rem;
     font-weight: 500;
-    color: #9c0202
+    color: #0760c5cc
 }
 
 .modal .top .info .title i {
     cursor: pointer;
     font-size: 2.8rem;
-    color: #9c0202
+    color: #0760c5cc
 }
 
 .modal .top .info p {
@@ -1017,7 +1017,7 @@ section#projects .container .cards-projects .box:hover .description {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
-    color: #ff0000
+    color: #0760c5cc
 }
 
 .modal .links {
@@ -1040,7 +1040,7 @@ section#projects .container .cards-projects .box:hover .description {
     font-weight: 500;
     font-size: 1.1rem;
     padding: 1rem 1.5rem;
-    background-image: linear-gradient(90deg, #7e0404 20%, #ff2222 92%);
+    background-image: linear-gradient(90deg, #04517e 20%, #2289ff 92%);
     border-radius: 0.5rem
 }
 
@@ -1102,7 +1102,7 @@ body.light-mode .contacts p {
 }
 
 body.light-mode .modal h2 {
-    color: #9c0202 !important
+    color: #0760c5cc !important
 }
 
 body.light-mode .menuOpen h2 {
@@ -1115,7 +1115,7 @@ body.light-mode .menuOpen h2 {
     height: auto;
     object-fit: cover;
     border-radius: 50%;
-    border: 10px solid #9c0202;
+    border: 10px solid #0770c5cc;
     display: block;
     margin: 0 auto;
 }
