@@ -112,7 +112,7 @@ const initTypingAnimation = () => {
       })
 
     } else {
-      element.innerHTML = 'Desenvolvedor Full-Stack | Java | React.js | Python'
+      element.innerHTML = 'Desenvolvedor de Sites do Paraíso'
       const textToArray = element.innerHTML.split('')
       element.innerHTML = ''
 
